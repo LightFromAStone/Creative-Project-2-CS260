@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LFAS Nutrition</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Changa" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- <div class="jumbotron jumbotron-fluid"></div> -->
+        
+        <div class="row">
+            <div class="col">
+                <div class="container" id="formContainer">
+                    <form>
+                        <div class="form-group">
+                            <label for=RecipeName>Recipe Name:</label>
+                            <input type="text" id="recipeName">
+                        </div>
+                        <div class="form-group">
+                            <label for="Serving Size">Number of Servings:</label>
+                            <input type="text" id="servingSize">
+                        </div>
+                        <div class="form-group">
+                            <label for="Ingredients">Enter Ingredients:</label>
+                            <textarea name="recipe" class="form-control" id="userIngredient" rows="10"></textarea>
+                            <button class="btn btn-primary float-right" id="ingredientButton" type="submit">Submit</button>
+                        </div>
+                    </form>
+                    <div id="helpCard">
+                        <p id="userHelp">Not sure how this works?
+                            <button class="btn btn-primary" id="helpButton">Click Here</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div hidden class="card mx-auto" id="nutritionCard">
+                    <div class="card-header text-center" id="nutritionHeader"></div>
+                    <div class="card-body">
+                        <ul class="list-group" id="nutritionValues"></ul>
+                    </div>
+                    <div class="card-footer text-right"><small>Powered by Nutritionix</small></div>
+                </div>
+
+                <div hidden class="card mx-auto" id="explainationCard">
+                        <div class="card-header text-center" id="explainationHeader">How to use this page:</div>
+                        <div class="card-body">
+                            <p>This page allows you to enter a recipe along with the number of servings it 
+                                makes and calculates the nutritional value per serving. Don't have a recipe 
+                                to test it with? No problem, try using the provided recipe below: <br>
+                                <strong>Name: </strong>BBQ Pulled Pork <br>
+                                <strong>Servings: </strong>10 <br>
+                                <strong>Ingredients: </strong>
+                                <ul>
+                                        <li>2.5 lbs. boneless pork loin</li>
+                                        <li>1/2 onion diced</li>
+                                        <li>1 Tbsp paprika</li>
+                                        <li>1/4 tsp black pepper</li>
+                                        <li>2 tsp salt</li>
+                                        <li>1/2 16 oz. bottle BBQ sauce (sweet baby rays)</li>
+                                        <li>2 cloves garlic, minced or pressed</li>
+                                        <li>1/3 cup apple cider vinegar</li>
+                                        <li>Liquid smoke to-taste (½ tsp for STUBBS brand)</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+
+
+    </div>
+</body>
+</html>

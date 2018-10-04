@@ -1,0 +1,62 @@
+body {
+    font-family: 'Changa', sans-serif;
+    font-size: 1.25rem;
+
+    background-image: url("../images/stairs-background.jpg");
+    background-size: 100%;
+}
+.container-fluid {
+    padding: 0;
+}
+
+.jumbotron {
+    background-color: #2196F3;
+    background-image: url("../images/vegetables-banner.jpg");
+    background-size: 100%;
+}
+
+#helpCard {
+    font-size: 1.5rem;
+    margin-top: 5rem;
+    color: white;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#formContainer {
+    margin-top: 6rem;
+    margin-left: 3.5rem;
+}
+
+.card {
+    width: 75%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.38);
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    border: 0;
+}
+
+.card-header {
+    color: white;
+    background-color: #1B5E20;
+}
+.card-footer {
+    font-size: 1rem;
+}
+
+label {
+    font-size: 1.5rem;
+    padding-right: 0.5rem;
+    color: white;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.btn.btn-primary {
+    /* padding: 0.125rem 0.5rem; */
+    /* margin-left: 0.5rem; */
+    margin-top: 0.25rem;
+    color: white;
+    background-color: #1B5E20;
+    border: 0;
+}
