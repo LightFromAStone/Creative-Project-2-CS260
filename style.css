@@ -2,7 +2,7 @@ body {
     font-family: 'Changa', sans-serif;
     font-size: 1.25rem;
 
-    background-image: url("../images/stairs-background.jpg");
+    background-image: url("images/stairs-background.jpg");
     background-size: 100%;
 }
 .container-fluid {
@@ -11,7 +11,7 @@ body {
 
 .jumbotron {
     background-color: #2196F3;
-    background-image: url("../images/vegetables-banner.jpg");
+    background-image: url("images/vegetables-banner.jpg");
     background-size: 100%;
 }
 
